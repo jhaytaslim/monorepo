@@ -19,8 +19,8 @@ This is a basic monorepo for starters no extra layer just barebone for junior en
   ```
   pnpm add ./packages/logger --workspace-root
   ```
-* **Add local Logger as dependency to a project/app**
+* **Add local Logger as dependency to a project/app like apps/ui**
 
-```
-pnpm add @pnpmworkspace/logger --filter ui
-```
+  ```
+  pnpm add @pnpmworkspace/logger --filter ui
+  ```
