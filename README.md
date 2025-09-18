@@ -1,10 +1,6 @@
-
-
 # Basic Monorepo
 
 This is a basic monorepo for starters no extra layer just barebone for junior engineers
-
-
 
 * **Add npm package to a local package/app**
 
@@ -23,3 +19,8 @@ This is a basic monorepo for starters no extra layer just barebone for junior en
   ```
   pnpm add ./packages/logger --workspace-root
   ```
+* **Add local Logger as dependency to a project/app**
+
+```
+pnpm add @pnpmworkspace/logger --filter ui
+```
